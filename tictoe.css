@@ -1,0 +1,35 @@
+
+.cell{
+	border:solid;
+	border-collapse: collapse;
+	padding : 35px;
+	
+
+	font-size: 30px;
+}
+
+#start{
+	margin-left: 47%;
+	margin-top: 38px;
+	font-size: 30px;
+}
+.table{
+	margin-left: 43%;
+	margin-top: 33px;
+
+}
+#cell1 , #cell2 , #cell3{
+	border-top: 0;
+}
+
+#cell7 , #cell8 , #cell9{
+	border-bottom: 0;
+}
+
+#cell1 , #cell4 , #cell7 {
+	border-left: 0;
+}
+
+#cell3, #cell6 , #cell9{
+	border-right: 0;
+}
