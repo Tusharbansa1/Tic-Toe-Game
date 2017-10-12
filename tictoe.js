@@ -55,35 +55,31 @@ function check(){
 	if(i1==i2 && i2==i3 && i1.length != 0) {
 		alert(i1+" has won");
 		replay();
-	}
-	if(i4==i5&&i5==i6 && i4.length != 0){
+	}else  if(i4==i5&&i5==i6 && i4.length != 0){
 		alert(i4+" has won");
 		replay();
-	}
-	if(i7==i8&&i8==i9 && i7.length != 0){
+	}else if(i7==i8&&i8==i9 && i7.length != 0){
 		alert(i7+" has won");
 		replay();
-	}
-	if(i1==i4&&i4==i7 && i1.length != 0){
+	}else if(i1==i4&&i4==i7 && i1.length != 0){
 		alert(i1+" has won");
 		replay();
-	}
-	if(i2==i5&&i5==i8 && i2.length != 0){
+	}else if(i2==i5&&i5==i8 && i2.length != 0){
 		alert(i2+" has won");
 		replay();
-	}
-	if(i3==i6&&i6==i9 && i3.length != 0){
+	}else if(i3==i6&&i6==i9 && i3.length != 0){
 		alert(i3+" has won");
 		replay();
-	}
-	if(i1==i5&&i5==i9 && i1.length != 0){
+	}else if(i1==i5&&i5==i9 && i1.length != 0){
 		alert(i1+" has won");
 		replay();
-	}
-	if(i3==i5&&i5==i7 && i3.length != 0){
+	}else if(i3==i5&&i5==i7 && i3.length != 0){
 		alert(i3+" has won");
 		replay();
-	}
+	}else if(i1.length != 0 && i2.length!= 0 && i3.length!=0 && i4.length!= 0 && i5.length!= 0 && i6.length!= 0 && i7.length!=0 && i8.length!=0 && i9.length!=0){
+		alert("draw hua");
+		replay();
+ }
 
 }
 
