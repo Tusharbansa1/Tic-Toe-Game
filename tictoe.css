@@ -2,33 +2,40 @@
 .cell{
 	border:solid;
 	border-width: 2px;
-	border-collapse: collapse;
+	
 	padding : 35px;
 	
 
 	font-size: 30px;
 }
 
-#start{
-	margin-left: 47%;
+#start ,#turn{
+	text-align: center;
+	margin-left: 170px;
 	margin-top: 38px;
 	font-size: 30px;
 }
 .table{
-	margin-left: 43%;
+	
 	margin-top: 33px;
 
 }
 #cell1 , #cell2 , #cell3{
 	border-top: 0;
+	height: 80px;
+	width: 80px;
 }
 
 #cell7 , #cell8 , #cell9{
 	border-bottom: 0;
+	height: 80px;
+	width: 80px;
 }
 
 #cell1 , #cell4 , #cell7 {
 	border-left: 0;
+	height: 80px;
+	width: 80px;
 }
 
 #cell3, #cell6 , #cell9{
